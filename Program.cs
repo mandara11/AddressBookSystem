@@ -13,8 +13,11 @@
             //obj2.addContact();
             //obj2.printAddedContact();
 
-            EditContact obj3 = new EditContact(); //UC3
-            obj3.editContacts();
+            //EditContact obj3 = new EditContact(); //UC3
+            //obj3.editContacts();
+
+            DeleteContact obj4 = new DeleteContact();
+            obj4.deleteContact();
 
         }
     }
