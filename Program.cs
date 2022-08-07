@@ -16,8 +16,16 @@
             //EditContact obj3 = new EditContact(); //UC3
             //obj3.editContacts();
 
-            DeleteContact obj4 = new DeleteContact();
-            obj4.deleteContact();
+            //DeleteContact obj4 = new DeleteContact();
+            //obj4.deleteContact();
+
+            MultiplePersonAddressBook obj5 = new MultiplePersonAddressBook();
+            obj5.addMultipleContact();
+            obj5.printContact();
+            obj5.editMultiContact();
+            obj5.deleteMultiContact();
+            Console.WriteLine("After removing Contacts");
+            obj5.printContact();
 
         }
     }
