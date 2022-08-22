@@ -13,7 +13,8 @@
             while (loop1)  //While loop to adding number of Address book system
             {
                 Console.WriteLine("**** Welcome To Address Book System ****");
-                Console.WriteLine("\n1.Add Address Book System\n2.Show Address Books System Names\n3.Search Person in City or State\n4.Exit "); //Print menu
+                Console.WriteLine("\n1.Add Address Book System\n2.Show Address Books System Names\n3.Search Person in City or State" +
+                    "\n4.View Persons by city or States\n5.Exit "); //Print menu
 
                 Console.Write("Enter Your Choice:- "); //Take input
                 int choice1 = Convert.ToInt32(Console.ReadLine()); //take input user and store choice1 veriable
@@ -104,6 +105,9 @@
                         break;
                     case 3:
                         edit.SearchRecordCityOrState();
+                        break;
+                    case 4:
+                        edit.ViewByCityOrStateName();
                         break;
                     default:
                         loop1 = false;
